@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: "Oswald",sans-serif;
+}
+
+
+.bg{
+    background-image: url(/mountain.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.heading{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    position: relative;
+    top: -10%;
+}
+
+.heading h2{
+    font-size: 3rem;
+}
+
+.setting{
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.setting input{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+}
+
+.setting input:hover{
+    cursor: pointer;
+}
+
+.input{
+    display: flex;
+    gap:1rem;
+}
+
+.setting button{
+    padding:0.5rem 1rem;
+    font-size: 1rem;
+    background-color: black;
+    border: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.setting button:hover{
+    background-color: aqua;
+    color: black;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
