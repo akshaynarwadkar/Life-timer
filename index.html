@@ -10,14 +10,45 @@
 </head>
 <body>
     <div class="bg">
-        <div class="heading">
+        <div id="initialText" class="heading">
             <h2>Kindly enter your Date of Birth</h2>
+        </div>
+        <div id="afterText" class="heading hide">
+            <div class="center">
+                <h2>Life Journey covered till now</h2>
+                <div class="time-container" >
+                    <h3>
+                        <div id="year">00</div>
+                        Years
+                    </h3>
+                    <h3>
+                        <div id="month">00</div>
+                        Months
+                    </h3>
+                    <h3>
+                        <div id="day">00</div>
+                        Days
+                    </h3>
+                    <h3>
+                        <div id="hour">00</div>
+                        Hours
+                    </h3>
+                    <h3>
+                        <div id="minute">00</div>
+                        Minutes
+                    </h3>
+                    <h3>
+                        <div id="second">00</div>
+                        Seconds
+                    </h3>
+                </div>
+            </div>
         </div>
         <div class="setting">
             <a><img id="settingsIcon" src="/icons8-settings-100.png"></a>
             <div id="settingsInput" class="input">
                 <input type="date" id="dobInput">
-                    <button type="submit">Add DOB</button>
+                    <button id="dobButton" type="submit">Add DOB</button>
             </div>
             
         </div>
